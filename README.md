@@ -495,34 +495,34 @@ const styles = StyleSheet.create({
 
 
 **Componentes:**
-- **Componente `App`**:
+- **`App`**:
     - É uma função que retorna o componente `Navigation`. Significa que, quando a aplicação é renderizada, o que será mostrado na tela é o conteúdo do componente `Navigation`.
        
-- **Componente `Navigation`**:
+- **`Navigation`**:
     - O componente `Navigation` é responsável por configurar o navegador de pilha (`Stack Navigator`), que gerencia as inumeras telas do aplicativo.
     - A navegação é incluído dentro de um `NavigationContainer`, que gerencia o estado do navegador.
     
-- **Componente `CarTableScreen`**:
+- **`CarTableScreen`**:
     - Este componente é uma função que retorna um `View` contendo o componente `CarTable` e um `Button`.
 
-- **Componente `Navigation`**:
+- **`Navigation`**:
     - O componente `Navigation` é responsável por configurar o navegador de pilha (`Stack Navigator`), que gerencia as inumeras telas do aplicativo.
     - A navegação é incluído dentro de um `NavigationContainer`, que gerencia o estado do navegador.
 
-- **Componente `Header`**:
+- **`Header`**:
   - Este componente recebe duas propriedades (`props`):
     - `title`: O texto que será exibido como título.
     - `image`: A fonte da imagem a ser exibida.
   - O componente organiza o título (`Text`) e a imagem (`Image`) dentro de uma View centralizada usando estilos definidos no `StyleSheet`.
  
-- **Componente `SearchButtons`**:
+- **`SearchButtons`**:
   - Este componente renderiza três botões, cada um responsável por abrir uma URL específica em um navegador:
     - Google: `http://www.google.com`
     - Bing: `https://www.bing.com`
     - Yahoo: `https://www.yahoo.com`
   - Os botões são posicionados verticalmente com espaçamento entre eles, utilizando as propriedades do StyleSheet.
  
-- **Componente `ImageGallery`**:
+- **`ImageGallery`**:
   - `images`: Propriedade (`prop`) que recebe uma lista de imagens para serem exibidas na galeria.
   - `openModal`: Função passada como propriedade que é chamada ao tocar em uma imagem, permitindo que ela seja aberta em um `modal`.
   - `Mapeamento das Imagens`: As imagens são mapeadas e renderizadas dentro de `TouchableOpacity`, que envolve cada `Image`. Isso permite que o usuário toque na imagem para abrir o `modal`.
